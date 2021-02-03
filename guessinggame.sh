@@ -13,11 +13,11 @@ function correct_guess {        # One function...
 	echo "Too high!"
     else
 	echo ""
-	echo "Congratualations! You guessed right!"
+	echo "Congratualations, You guessed right."
     fi
 }
 
-while [[ $count -ne $guess ]]    # One loop...
+while [[ $count -ne $guess ]]    # One loop
 do
     read -p "Guess how many files are in the current directory? " guess
     # echo "You entered: $guess"
